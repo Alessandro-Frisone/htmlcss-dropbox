@@ -49,6 +49,7 @@
 }
 
 
+
 /*----------------
     HEADER
 ------------------*/
@@ -138,8 +139,22 @@ h1{
     top: 40px;
     left: 0;
 }
-.radio{
+.radio-box{
     display: flex;
     align-items: center;
     margin-top: 50px;
+    gap: 40px;
+}
+.col-container{
+    margin: 50px;
+    width: calc(100% / 3);
+}
+.row{
+    text-align: center;
+}
+.col{
+    margin: 20px;
+}
+.col ul{
+    list-style: none;
 }
