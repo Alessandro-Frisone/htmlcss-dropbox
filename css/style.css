@@ -12,11 +12,11 @@
 ------------------*/
 .container{
     max-width: 1200px;
+    margin-top: 130px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    display: flex;
 }
 .container-large{
     max-width: 1200px;
@@ -56,6 +56,8 @@ header{
     display: flex;
     align-items: center;
     padding: 20px 25px;
+    position: sticky;
+    z-index: 20;
 }
 .header-right a{
     align-items: center;
@@ -90,7 +92,7 @@ header{
 /*----------------
     MAIN
 ------------------*/
-section{
+.section{
    background-color: #bdcde3;
    padding: 35px 15px;
 }
@@ -135,4 +137,9 @@ h1{
     position: relative;
     top: 40px;
     left: 0;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
 }
