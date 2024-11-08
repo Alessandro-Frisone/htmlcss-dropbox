@@ -49,7 +49,6 @@
 }
 
 
-
 /*----------------
     HEADER
 ------------------*/
@@ -58,7 +57,7 @@ header{
     align-items: center;
     padding: 20px 25px;
     position: sticky;
-    z-index: 20;
+    z-index: 2;
 }
 .header-right a{
     align-items: center;
@@ -146,15 +145,28 @@ h1{
     gap: 40px;
 }
 .col-container{
-    margin: 50px;
+    margin-top: 50px;
     width: calc(100% / 3);
+    border: 1px solid gray;
+    padding: 10px;
 }
 .row{
     text-align: center;
+   padding: 10px;
 }
 .col{
     margin: 20px;
+    line-height: 3;
+    
 }
 .col ul{
     list-style: none;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.col hr{
+    max-width: 15%;
+}
+.col >.div{
+    font-size: 3em;
 }
