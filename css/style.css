@@ -11,7 +11,7 @@
     LAYOUT
 ------------------*/
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin-top: 130px;
     margin-left: auto;
     margin-right: auto;
@@ -41,6 +41,7 @@
 .btn-large {
     padding: 10px 20px;
     font-size: 16px;
+    border: 1px solid;
 }
 
 .btn-primary{
@@ -57,7 +58,10 @@ header{
     align-items: center;
     padding: 20px 25px;
     position: sticky;
+    top: 0;
+    right: 0;
     z-index: 2;
+    background-color: white;
 }
 .header-right a{
     align-items: center;
@@ -153,6 +157,7 @@ h1{
 .row{
     text-align: center;
    padding: 10px;
+   border-bottom: 1px solid;
 }
 .col{
     margin: 20px;
@@ -169,4 +174,24 @@ h1{
 }
 .col >.div{
     font-size: 3em;
+}
+.col-left-bottom{
+    max-width: 60%;
+    
+}
+.col-right-bottom{
+    max-width: 40%; 
+    margin-left: 50px;
+    margin-top: 45px;
+}
+.col-left-bottom img{
+    max-width: 100%;
+}
+
+.fourth-section{
+    margin-top: 250px;
+    display: flex;
+}
+.col-right-bottom div{
+    margin-bottom: 20px;
 }
