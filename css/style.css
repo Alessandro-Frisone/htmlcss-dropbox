@@ -116,6 +116,9 @@ header{
     display: flex;
     position: relative;
 }
+.container h2{
+    font-size: xx-large;
+}
 h1{
     margin-bottom: 50px;
 }
@@ -194,4 +197,43 @@ h1{
 }
 .col-right-bottom div{
     margin-bottom: 20px;
+}
+.fifth-section{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.fifth-section h2{
+    font-size: xx-large;
+}
+.card{
+    width: calc(100%/3);
+    margin-top: 70px;
+}
+.card img{
+    max-width: 100%;
+}
+.card h3{
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+.top-col{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+.bottom-col{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+.sixth-section{
+    margin-bottom: 150px;
+}
+.sixth-section h2{
+    font-size: 2em;
+    padding-right: 355px;
+    margin-bottom: 55px;
+}
+.sixth-section a{
+    color: blue;
 }
