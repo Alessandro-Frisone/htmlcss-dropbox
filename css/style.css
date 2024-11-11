@@ -292,3 +292,20 @@ header{
 .sixth-section a{
     color: blue;
 }
+
+
+
+/*----------------
+    FOOTER
+------------------*/
+footer{
+    background-color: black;
+    color: white;
+}
+.container-footer{
+    display: flex;
+    max-width: 100%;
+}
+.container-footer ul{
+    list-style: none;
+}
