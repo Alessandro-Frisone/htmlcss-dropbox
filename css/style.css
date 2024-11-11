@@ -268,10 +268,10 @@ header{
 }
 .fifth-section h2{
     font-size: xx-large;
+    margin-bottom: 80px;
 }
 .card{
     width: calc( ( 100% - 90px )/ 3 );
-    margin-top: 70px;
 }
 .card img{
     max-width: 100%;
