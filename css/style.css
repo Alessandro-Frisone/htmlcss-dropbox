@@ -171,7 +171,6 @@ header{
 }
 .col{
     margin: 20px;
-    padding: 10px;
 }
 .col ul{
     list-style: none;
@@ -192,6 +191,10 @@ header{
     max-width: 40%; 
     margin-left: 50px;
     margin-top: 45px;
+}
+.sec-par{
+    line-height: 1.5em;
+    margin-top: 15px;
 }
 .col-left-bottom img{
     max-width: 100%;
