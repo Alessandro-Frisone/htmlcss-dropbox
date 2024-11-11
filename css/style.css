@@ -300,12 +300,31 @@ header{
 ------------------*/
 footer{
     background-color: black;
-    color: white;
+    color: gray;
 }
 .container-footer{
     display: flex;
     max-width: 100%;
+    font-size: 0.5em;
+    gap: 102px;
+    margin-top: 100px;
+    margin-bottom: 130px;
 }
 .container-footer ul{
     list-style: none;
+}
+.first{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.col-footer{
+    line-height: 2em;
+    font-size: medium;
+}
+.footer-bottom{
+    align-items: center;
+}
+.footer-bottom hr{
+    margin-bottom: 50px;
 }
