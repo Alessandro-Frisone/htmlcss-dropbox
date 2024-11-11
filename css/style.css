@@ -47,8 +47,18 @@
 .btn-primary{
     background-color: blue;
     color: white;
+    padding: 10px 15px;
 }
 
+.btn-col{
+    width: 100%;
+}
+
+.btn-secondary{
+    background-color: blue;
+    color: white;
+    padding: 10px 35px;
+}
 
 /*----------------
     HEADER
@@ -115,12 +125,10 @@ header{
     margin-right: auto;
     display: flex;
     position: relative;
+    margin-top: 55px;
 }
 .container h2{
     font-size: xx-large;
-}
-h1{
-    margin-bottom: 50px;
 }
 .col-left{
     max-width: 30%; 
@@ -154,18 +162,16 @@ h1{
 .col-container{
     margin-top: 50px;
     width: calc(100% / 3);
-    border: 1px solid gray;
-    padding: 10px;
+    border: 1px solid lightgray;
 }
 .row{
     text-align: center;
-   padding: 10px;
-   border-bottom: 1px solid;
+   padding: 13px;
+   border-bottom: 1px solid lightgray;
 }
 .col{
     margin: 20px;
-    line-height: 3;
-    
+    padding: 10px;
 }
 .col ul{
     list-style: none;
@@ -189,6 +195,55 @@ h1{
 }
 .col-left-bottom img{
     max-width: 100%;
+}
+.container-col{
+    display: flex;
+    gap: 5%;
+}
+.prezzo{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.mese{
+    margin-bottom: 55px;
+    color: gray;
+}
+.col-container li{
+    display: flex;
+    gap: 3%;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+.oppure{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.col a{
+    color: blue;
+}
+.col hr{
+    margin-bottom: 45px;
+}
+.col .fa-check{
+    color: blue;
+}
+.container-bottom{
+    margin-top: 55px;
+    border: 1px solid lightgray;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+.col-main{
+    margin-left: 25px;
+    margin-right: 200px;
+    margin-bottom: 25px;
+}
+.secondo-par{
+    margin-top: 50px;
 }
 
 .fourth-section{
